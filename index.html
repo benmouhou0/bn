@@ -108,7 +108,7 @@
             lat = snapshot.val().latitude;
             long = snapshot.val().longitude;
             console.log(typeof(lat));
-            marker = L.marker([lat, long], {color : 'red'});
+            marker = L.marker([lat, long], {color : 'red', draggable : true});
 
             //var va = L.layerGroup([marker]);
 
